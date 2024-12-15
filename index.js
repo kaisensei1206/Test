@@ -1,6 +1,6 @@
 const fs = require('fs');
 const http = require('http');
-
+const url = require('url')
 
 
 //讀JSON檔 再把它轉成javascript
