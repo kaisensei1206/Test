@@ -4,7 +4,7 @@ const url = require('url')
 
 
 //讀JSON檔 再把它轉成javascript
-
+//只會執行一次
 const data = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8');
 const dataObj = JSON.parse(data);
 
